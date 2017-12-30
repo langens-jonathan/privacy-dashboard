@@ -1,0 +1,19 @@
+{
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "Privacy Dashboard",
+    "default_popup": "privacy-dashboard.html",
+    "default_icon": {
+      "50": "icons/default_icon.jpg"
+    }
+  },
+  "description": "Send information on the tracker on websites to a central point (configurable) to be able to monitor them.",
+    "icons": {
+        "50": "icons/default_icon.jpg"
+  },
+  "homepage_url": "https://github.com/langens-jonathan/privacy-dashboard",
+  "manifest_version": 2,
+  "name": "Privacy Dashboard",
+  "version": "1.0",
+  "permissions": ["cookies","<all_urls>","tabs"]
+}
